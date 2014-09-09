@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <header >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="prefSoundToggle"
+            android:title="@string/pref_sound_toggle"
+            android:summary="@string/pref_sound_toggle_summary" >
+        </CheckBoxPreference>
+       </header>
+    
+    <header 
+        android:fragment="com.henryluo.keeptouching.SettingsFragment"
+        android:title="@string/pref_user_about"  >
+
+		<!--这个键值对可以当成一个fragment的参数 -->
+        <extra android:name="settings" android:value="settings" />
+        
+    </header>
+
+</preference-headers>

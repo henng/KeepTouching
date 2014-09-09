@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.henryluo.keeptouching.MainActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/normal_game"
+        android:orderInCategory="100"
+        android:title="@string/normal_game"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/difficult_game"
+        android:orderInCategory="100"
+        android:title="@string/difficult_game"
+        app:showAsAction="never"/>
+    
+
+</menu>

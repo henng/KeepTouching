@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+ 
+    <PreferenceCategory android:title="@string/pref_sound" >
+        
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="prefSoundToggle"
+            android:title="@string/pref_sound_toggle"
+            android:summary="@string/pref_sound_toggle_summary" >
+        </CheckBoxPreference>
+        
+    </PreferenceCategory>
+     
+    <PreferenceCategory android:title="@string/pref_others" >
+        <EditTextPreference
+            	android:defaultValue="Henry"
+                android:title="@string/pref_user_name"
+                android:summary="@string/pref_user_name_summary"
+                android:key="prefUserName"/>
+ 
+        <Preference
+            android:title="@string/pref_user_about" >
+          	<intent android:action="com.henryluo.action.ABOUT_INFO"
+          	    />
+           </Preference>
+        
+    </PreferenceCategory>
+ 
+</PreferenceScreen>

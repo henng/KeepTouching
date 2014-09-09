@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KeepTouching</string>
+
+    <string name="normal_game">正常模式</string>
+    <string name="difficult_game">变态模式</string>
+    <string name="action_settings">设置</string>
+    
+    
+    <string name="pref_sound_toggle">声音开关</string>
+    <string name="pref_sound_toggle_summary">选择是否播放游戏配音</string>
+
+    <string name="pref_user_name">用户昵称</string>
+    <string name="pref_user_name_summary">玩游戏少不了一个霸气的名字</string>
+    <string name="pref_user_about">关于</string>
+    
+    
+    <string name="pref_sound">游戏声音</string>
+    <string name="pref_others">其他</string>
+    
+    
+</resources>
